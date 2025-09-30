@@ -63,6 +63,21 @@ docker-compose down
 
 ---
 
+## 📝 Pycharm Pro
+
+### To use it in Pycharm Pro you have to setup external server in IDE Options.
+
+* Navigate to IDE settings
+* Find jupyter external settings
+
+  * Create external Server
+  * Change the Server Url to [http://localhost:8888](http://localhost:8888)
+  * Test the connection, and you are ready to go
+
+---
+
+---
+
 ## 📝 Notes
 
 * The container maps `/dev/kfd` and `/dev/dri` for AMD GPU access.
